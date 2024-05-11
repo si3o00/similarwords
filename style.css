@@ -50,6 +50,9 @@ p {
 }
 
 @media (min-width: 400px) {
+   ul {
+    display: block;
+  }
   li {
     display: block;
   }
