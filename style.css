@@ -8,12 +8,10 @@ h1 {
 ul {
   margin: 48px 240px;
   background: #eee;
-  display: block;
 }
 
 li {
   line-height: 1.8;
-   display: block;
 }
 
 a {
@@ -47,14 +45,5 @@ p {
   border-bottom: solid 1px #bbb;
   font-size: 18px;
   margin: 24px;
-}
-
-@media (max-width: 400px) {
-   ul {
-    display: none;
-  }
-  li {
-    display: none;
-  }
 }
 
