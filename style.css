@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+h1 {
+  text-align: center;
+  margin: 40px;
+}
+
+ul {
+  margin: 48px 240px;
+  background: #eee;
+}
+
+li {
+  line-height: 1.8;
+}
+
+a {
+  text-decoration: none;
+  color: #666;
+}
+
+a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+section {
+  max-width: 1000px;
+  margin: 0 auto;
+  border-bottom: solid 2px skyblue;
+  padding-top: 32px;
+  line-height: 1.8;
+}
+
+h3 {
+  margin: 24px;
+}
+
+p {
+  font-size: 18px;
+  margin: 24px;
+}
+
+.mark {
+  border-bottom: solid 1px #bbb;
+  font-size: 18px;
+  margin: 24px;
+}
