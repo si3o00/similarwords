@@ -8,12 +8,12 @@ h1 {
 ul {
   margin: 48px 240px;
   background: #eee;
-  display: none;
+  display: block;
 }
 
 li {
   line-height: 1.8;
-   display: none;
+   display: block;
 }
 
 a {
@@ -49,12 +49,12 @@ p {
   margin: 24px;
 }
 
-@media (min-width: 400px) {
+@media (max-width: 400px) {
    ul {
-    display: block;
+    display: none;
   }
   li {
-    display: block;
+    display: none;
   }
 }
 
