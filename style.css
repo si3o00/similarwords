@@ -48,8 +48,9 @@ p {
   margin: 24px;
 }
 
-@media (max-width: 400px) {
+/* @media (min-width: 400px) {
   ul {
     display: block;
   }
 }
+ */
