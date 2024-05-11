@@ -8,6 +8,7 @@ h1 {
 ul {
   margin: 48px 240px;
   background: #eee;
+  display: block;
 }
 
 li {
@@ -45,4 +46,10 @@ p {
   border-bottom: solid 1px #bbb;
   font-size: 18px;
   margin: 24px;
+}
+
+@media (max-width: 200px) {
+  ul {
+    display: none;
+  }
 }
