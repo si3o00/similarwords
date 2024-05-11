@@ -13,6 +13,7 @@ ul {
 
 li {
   line-height: 1.8;
+   display: none;
 }
 
 a {
